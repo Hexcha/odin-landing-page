@@ -5,6 +5,8 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto',sans-serif;
+    text-align: center;
+    /* gap: 16px; */
 }
 .header{
     margin: 0;
@@ -12,26 +14,31 @@ body{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    margin-bottom: 64px;
 }
-.first-row, .second-row{
+.header-container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    margin-bottom: 56px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    margin-right: 300px;
+    gap: 60px;
+    width: 1200px;
+    max-height: 600px;
 }
-.second-row{
-    width: 1000px;
-    margin-left: 362px;
-}
-.text{
+
+.header-text{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
+    max-width: 10;
+    gap: 0;
+    margin: 0;
 }
 button{
     flex-grow: 0;
+    border-radius: 10px;
 }
-
 
 #logo{
     font-size: 24px;
@@ -55,10 +62,64 @@ a{
 #hero-text{
     font-weight: 900;
     font-size: 48px;
+    margin: 0;
     
 }
 img{
     max-width: 250px;
     max-height: 250px;
+    background-attachment: fixed;
 }
+#random-info{
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.info-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:64px;
+    margin-bottom: 128px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    height: 400px;
+    margin-bottom: 0;
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+}
+.pop-up{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1200px;
+    height: 120px;
+    background-color: #3882f6;
+    margin: 64px;
+    border-radius: 10px;
+}
+.pop-up-text{
+    color: white;
+    text-align: start;
+    font-size: 24px;
+}
+#action{
+    font-weight: bold;
+}
+#explanation{
+    color: #e5e7eb;
+}
+.footer{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 32px;
+    margin: 0;
+}
+
 
