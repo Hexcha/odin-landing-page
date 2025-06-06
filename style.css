@@ -106,6 +106,14 @@ img{
     height: 400px;
     margin-bottom: 0;
     justify-content: center;
+    align-items: center;
+}
+.quote-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 840px;
+    width: 100%;
+    margin: 0 auto;   
 }
 
 #quote{
@@ -113,6 +121,7 @@ img{
 }
 #quoter{
     font-size: 16px;
+    text-align: right;
 }
 
 .sign-up{
